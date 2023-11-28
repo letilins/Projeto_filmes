@@ -1,27 +1,26 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Hosting;
 
-namespace Filmes_2023
-{
-    public class Startup
+    namespace Filmes_2023
     {
-        public void ConfigureServices(IServiceCollection services)
-        {
-            
-            services.AddSingleton<IFilmesService, FilmesService>();
-        }
+        public class Startup
+    {
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddControllers();
+        services.AddSingleton<IFilmesService, FilmesService>();
+    }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
-            if (env.IsDevelopment())
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    {
+        if (env.IsDevelopment())
         {
             app.UseDeveloperExceptionPage();
         }
-    else
+        else
         {
-        
             app.UseExceptionHandler("/Home/Error");
             app.UseHsts();
         }
@@ -29,11 +28,9 @@ namespace Filmes_2023
         app.UseRouting();
 
         app.UseEndpoints(endpoints =>
-    {
-        endpoints.MapControllers();
-    });
+        {
+            endpoints.MapControllers();
+        });
     }
-
     }
 }
-
