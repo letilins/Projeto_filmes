@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wtn/bKhb8uSZzs+Wjt3GTl6kCPTUr2pUkJTPeJIkaYdv7SHd6mDcKv/fAhVc9qWXlH6asdQUDfvEibvCL/N9Jg==",
+  "success": true,
+  "projectFilePath": "/Users/leticialinssilva/Documents/Projetos_Filmes/Filmes_2023/Filmes_2023.csproj",
+  "expectedPackageFiles": [
+    "/Users/leticialinssilva/.nuget/packages/microsoft.aspnetcore.openapi/7.0.12/microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
+    "/Users/leticialinssilva/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/leticialinssilva/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/leticialinssilva/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/leticialinssilva/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/leticialinssilva/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/leticialinssilva/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
